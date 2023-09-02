@@ -10,6 +10,8 @@
 <body>
 
     <main class="main">
+
+        <!-- Header section containing navbar and logo -->
         <header class="header">
             <a href="#" class="logo">Quiz</a>
 
@@ -20,16 +22,68 @@
             </nav>
         </header>
 
-        <section class="home">
-            <div class="home-content">
-                <h1>Quiz Game</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illo earum dolore? At omnis commodi saepe maiores nulla deserunt enim!</p>
-                <button class="start-btn">Start Quiz</button>
-            </div>
-        </section>
+        <!-- Another section for home content -->
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Nabin's Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Welcome to quiz game</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">What does HTML stand for?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Game</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illo earum dolore? At omnis commodi saepe maiores nulla deserunt enim!</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
     </main>
 
+    <!-- Division for Quiz guide popup-->
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Lorem ipsum dolor sit amet.</span>
+        <span class="info">2. Lorem ipsum dolor sit amet.</span>
+        <span class="info">3. Lorem ipsum dolor sit amet.</span>
+        <span class="info">4. Lorem ipsum dolor sit amet.</span>
+        <span class="info">5. Lorem ipsum dolor sit amet.</span>
     
+
+        <!--Buttons for starting quiz  -->
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+
 
     <!--Link Javascript files-->
     <script src="script.js"></script>
