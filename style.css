@@ -17,7 +17,7 @@ body{
 }
 .main{
     min-height: 100vh;
-    background: url('/Assets/background.jpg') no-repeat;
+    background: url('/Assets/background2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     pointer-events: auto;
@@ -61,7 +61,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #c40094;
+    color: #AA2C86;
 }
 
 /*Css for container (home section)*/
@@ -105,11 +105,11 @@ body{
 .home-content .start-btn{
     width: 190px;
     height: 55px;
-    background: #c40094;
+    background: #AA2C86;
     border: 2px solid #fff;
     outline: none;
     border-radius: 10px;
-    box-shadow: 0 0 10px #c40094;
+    box-shadow: 0 0 10px #AA2C86;
     font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
@@ -146,7 +146,7 @@ body{
 
 .popup-info h2{
     font-size: 50px;
-    color: #c40094;
+    color: #AA2C86;
 }
 
 .popup-info .info{
@@ -162,7 +162,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #c40094;
+    border-top: 1px solid #AA2C86;
     margin-top: 10px;
     padding: 15px 0 7px;
 }
@@ -173,8 +173,8 @@ body{
     align-items: center;
     width: 130px;
     height: 45px;
-    background: #c40094;
-    border: 2px solid #c40094;
+    background: #AA2C86;
+    border: 2px solid #AA2C86;
     outline: none;
     border-radius: 6px;
     text-decoration: none;
@@ -188,17 +188,17 @@ body{
 
 .popup-info .btn-group .info-btn:nth-child(1){
     background: transparent;
-    color: #c40094;
+    color: #AA2C86;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1):hover{
-    background: #c40094;
+    background: #AA2C86;
     color: #fff;
 }
 
 .popup-info .btn-group .info-btn:nth-child(2):hover{
-    background: #950170;
-    border-color: #950170;
+    background: #681650;
+    border-color: #681650;
 }
 
 
@@ -225,7 +225,7 @@ body{
     position: relative;
     width: 500px;
     background: transparent;
-    border: 2px solid #c40094;
+    border: 2px solid #AA2C86;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -249,7 +249,7 @@ body{
 .quiz-box h1{
     font-size: 32px;
     text-align: center;
-    background: linear-gradient(45deg, transparent, #c40094, transparent);
+    background: linear-gradient(45deg, transparent, #AA2C86, transparent);
     border-radius: 6px;
 }
 
@@ -258,7 +258,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 2px solid #c40094;
+    border-bottom: 2px solid #AA2C86;
     margin-bottom: 30px;
 
 }
@@ -269,7 +269,7 @@ body{
 }
 
 .quiz-header .header-score{
-    background: #c40094;
+    background: #AA2C86;
     border-radius: 3px;
     padding: 7px;
 }
@@ -316,7 +316,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid #c40094;
+    border-top: 2px solid #AA2C86;
     padding-top: 20px;
     margin-top: 25px;
 }
@@ -343,13 +343,13 @@ body{
 
 .quiz-footer .next-btn.active{
     pointer-events: auto;
-    background: #c40094;
-    border-color: #c40094;
+    background: #AA2C86;
+    border-color: #AA2C86;
     color: #fff;
 }
 .quiz-footer .next-btn.active:hover {
-    background: #950170;
-    border-color: #950170;
+    background: #681650;
+    border-color: #681650;
 }
 
 /* CSS for result box */
@@ -361,7 +361,7 @@ body{
     transform: translate(-50%, -50%) scale(.9);
     width: 500px;
     background: transparent;
-    border: 2px solid #c40094;
+    border: 2px solid #AA2C86;
     border-radius: 6px;
     padding: 20px;
     display: flex;
@@ -394,7 +394,7 @@ body{
     position: relative;
     width: 250px;
     height: 250px;
-    background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, .1) 0deg);
+    background: conic-gradient(#AA2C86 3.6deg, rgba(255, 255, 255, .1) 0deg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -430,8 +430,8 @@ body{
 .buttons button{
     width: 130px;
     height: 47px;
-    background-color: #c40094;
-    border: 2px solid #c40094;
+    background-color: #AA2C86;
+    border: 2px solid #AA2C86;
     outline: none;
     border-radius: 6px;
     font-size: 16px;
@@ -442,7 +442,7 @@ body{
 }
 
 .buttons button:hover{
-    background: #950170;
-    border-color: #950170;
+    background: #681650;
+    border-color: #681650;
 
 }
