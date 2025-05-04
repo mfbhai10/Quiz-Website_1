@@ -45,6 +45,28 @@ let questions = [
     },
     {
         numb: 5,
+        question: "What does SQL stand for?",
+        answer: "D. Structured Query Language",
+        options: [
+            "A. Strength Query Language",
+            "B. Stylesheet Query Language",
+            "C. Science Question Language",
+            "D. Structured Query Language"
+        ]
+    },
+    {
+        numb: 6,
+        question: "What does SQL stand for?",
+        answer: "D. Structured Query Language",
+        options: [
+            "A. Strength Query Language",
+            "B. Stylesheet Query Language",
+            "C. Science Question Language",
+            "D. Structured Query Language"
+        ]
+    },
+    {
+        numb: 7,
         question: "What does XML stand for?",
         answer: "D. Extensible Markup Language",
         options: [
