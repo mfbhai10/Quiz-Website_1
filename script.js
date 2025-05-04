@@ -148,7 +148,7 @@ function showResultBox(){
     let progressStartValue = 0;
 
  
-    let totalQuestions = questions.length || 7;
+    let totalQuestions = questions.length || 25;
     let progressEndValue = Math.round((userScore / totalQuestions) * 100);
 
     let speed = 20;
