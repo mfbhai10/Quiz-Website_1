@@ -145,16 +145,20 @@ function showResultBox(){
 
     const circularProgress = document.querySelector('.circular-progress');
     const progressValue = document.querySelector('.progress-value');
-    let progressStartValue = -1;
-    let progressEndValue = (userScore / questions.length) * 100;
+    let progressStartValue = 0;
+
+ 
+    let totalQuestions = questions.length || 7;
+    let progressEndValue = Math.round((userScore / totalQuestions) * 100);
+
     let speed = 20;
 
     let progress = setInterval(() => {
-        progressStartValue++;
         progressValue.textContent = `${progressStartValue}%`;
         circularProgress.style.background = `conic-gradient(#AA2C86 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
-        if(progressStartValue == progressEndValue){
+        if(progressStartValue >= progressEndValue){
             clearInterval(progress);
         }
+        progressStartValue++;
     }, speed);
 }
